@@ -23,7 +23,7 @@
         padding: 0;
         margin: 0;
         box-sizing: border-box;
-        color: #16213EF0;
+        color: #16213E;
     }
     body {
         font-family: 'Montserrat', sans-serif;
@@ -44,5 +44,6 @@
     }
     .row {
         display: flex;
+        flex-wrap: wrap;
     }
 </style>
