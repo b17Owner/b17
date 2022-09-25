@@ -1,0 +1,222 @@
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="172.93956mm"
+   height="45.534561mm"
+   viewBox="0 0 172.93956 45.534561"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="Logo17_1.svg">
+  <defs
+     id="defs2">
+    <style
+       id="style2">.cls-1{fill:#fff;}</style>
+    <filter
+       height="1.0571625"
+       y="-0.028581247"
+       width="1.0151885"
+       x="-0.0075942432"
+       id="filter851"
+       style="color-interpolation-filters:sRGB"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur853"
+         stdDeviation="1.9382289"
+         inkscape:collect="always" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="98.971152"
+     inkscape:cy="114.6086"
+     inkscape:document-units="mm"
+     inkscape:current-layer="svg8"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="1366"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     transform="matrix(0.26458333,0,0,0.26458333,9.6419105,1.2414468)"
+     ry="13.5714"
+     y="0"
+     x="0"
+     height="162.75529"
+     width="612.53625"
+     id="rect4549"
+     style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:1.30396783;filter:url(#filter851)" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path866"
+     d="m 64.371903,14.486636 a 6.5996319,6.5996319 0 0 0 -0.233579,1.73477 6.5996319,6.5996319 0 0 0 6.599597,6.5996 6.5996319,6.5996319 0 0 0 6.599597,-6.5996 6.5996319,6.5996319 0 0 0 -0.239778,-1.73477 h -4.795057 a 2.3386083,2.3386083 0 0 1 0.774115,1.73477 2.3386083,2.3386083 0 0 1 -2.338877,2.33888 2.3386083,2.3386083 0 0 1 -2.338358,-2.33888 2.3386083,2.3386083 0 0 1 0.774631,-1.73477 z"
+     style="display:none;opacity:1;fill-opacity:1;stroke:none;stroke-width:0.26458332" />
+  <g
+     id="prom"
+     transform="translate(8.4111355,0.01066678)"
+     style="fill:#ffffff;fill-opacity:0.81568627">
+    <path
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;line-height:1.25;font-family:'Nunito Sans';-inkscape-font-specification:'Nunito Sans Bold';letter-spacing:1.21000004px;word-spacing:0px;fill:#ffffff;fill-opacity:0.81568627;stroke:none;stroke-width:0.3775613"
+       d="m 58.174069,12.4239 v 17.64491 l 6.056479,-0.47129 V 17.00191 h 8.935886 v 11.90005 l 6.056479,-0.47181 V 12.4239 Z"
+       id="path4596"
+       inkscape:connector-curvature="0" />
+    <path
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;line-height:1.25;font-family:'Nunito Sans';-inkscape-font-specification:'Nunito Sans Bold';letter-spacing:1.21000004px;word-spacing:0px;fill:#ffffff;fill-opacity:0.81568627;stroke:none;stroke-width:0.3775613"
+       d="m 85.626652,12.4239 v 15.5577 l 15.215608,-1.18391 c 0.6298,-0.28297 1.21633,-0.60701 1.71152,-1.0175 1.60464,-1.33196 2.40709,-3.23011 2.40709,-5.69475 0,-2.45415 -0.80245,-4.34227 -2.40709,-5.66373 -1.59414,-1.33196 -3.885478,-1.99781 -6.874508,-1.99781 z m 6.05648,4.38887 h 3.3507 c 1.17464,0 2.08204,0.28322 2.7218,0.84957 0.63976,0.56634 0.95963,1.37432 0.95963,2.4231 0,1.04878 -0.31987,1.86127 -0.95963,2.4381 -0.63976,0.56634 -1.54716,0.84956 -2.7218,0.84956 h -3.3507 z"
+       id="path4598"
+       inkscape:connector-curvature="0" />
+    <path
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;line-height:1.25;font-family:'Nunito Sans';-inkscape-font-specification:'Nunito Sans Bold';letter-spacing:1.21000004px;word-spacing:0px;fill:#ffffff;fill-opacity:0.81568627;stroke:none;stroke-width:0.3775613"
+       d="m 120.41006,11.99911 c -3.76513,0 -6.72284,1.08014 -8.87284,3.24063 -2.13952,2.16049 -3.20911,5.14432 -3.20911,8.9514 0,0.85938 0.0718,1.66357 0.18138,2.43912 l 6.2141,-0.48369 c -0.0822,-0.61145 -0.13436,-1.25506 -0.13436,-1.95543 0,-2.47513 0.50868,-4.39438 1.526,-5.75779 1.01732,-1.36342 2.44898,-2.04536 4.29483,-2.04536 1.85634,0 3.29301,0.68194 4.31033,2.04536 1.01732,1.36341 1.52601,3.28266 1.52601,5.75779 0,0.37531 -0.0348,0.7132 -0.0584,1.06298 l 6.26112,-0.48731 c 0.006,-0.19816 0.0429,-0.37284 0.0429,-0.57567 0,-3.80708 -1.07011,-6.79091 -3.20962,-8.9514 -2.13952,-2.16049 -5.09672,-3.24063 -8.87233,-3.24063 z"
+       id="path4600"
+       inkscape:connector-curvature="0" />
+    <path
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;line-height:1.25;font-family:'Nunito Sans';-inkscape-font-specification:'Nunito Sans Bold';letter-spacing:1.21000004px;word-spacing:0px;fill:#ffffff;fill-opacity:0.81568627;stroke:none;stroke-width:0.3775613"
+       d="m 151.30017,23.2837 4.83019,-0.37621 1.78439,-4.17545 V 22.769 l 5.72678,-0.44597 V 12.4239 h -7.69307 z"
+       id="path1508"
+       inkscape:connector-curvature="0" />
+    <path
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;line-height:1.25;font-family:'Nunito Sans';-inkscape-font-specification:'Nunito Sans Bold';letter-spacing:1.21000004px;word-spacing:0px;fill:#ffffff;fill-opacity:0.81568627;stroke:none;stroke-width:0.3775613"
+       d="m 137.51083,12.4239 v 11.93312 l 5.74228,-0.447 v -5.17798 l 2.14147,5.01106 4.49275,-0.34933 -4.66793,-10.96987 z"
+       id="path4602"
+       inkscape:connector-curvature="0" />
+  </g>
+  <path
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;line-height:1.25;font-family:'Nunito Sans';-inkscape-font-specification:'Nunito Sans Bold';letter-spacing:1.21000004px;word-spacing:0px;display:inline;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:0.47748417"
+     d="m 17.009265,32.129537 c 0.05525,-0.0033 0.253533,-0.01203 0.658591,-0.07276 0.455925,-0.06777 1.082704,-0.189481 1.765229,-0.405274 0.341261,-0.107925 0.696702,-0.23926 1.051621,-0.399178 0.354922,-0.159901 0.709563,-0.34876 1.049479,-0.57068 0.339913,-0.221932 0.665086,-0.47706 0.961331,-0.771012 0.296245,-0.29395 0.563095,-0.626663 0.787008,-1.002656 0.699312,-1.107674 1.156401,-1.894001 1.44574,-2.454531 0.289343,-0.560518 0.410896,-0.894756 0.441169,-1.099249 0.182861,-0.247184 0.64142,-0.59609 0.943234,-0.837114 z"
+     id="path1457"
+     inkscape:connector-curvature="0" />
+  <path
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;line-height:1.25;font-family:'Nunito Sans';-inkscape-font-specification:'Nunito Sans Bold';letter-spacing:1.21000004px;word-spacing:0px;display:inline;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:0.47748417"
+     d="m 26.18177,29.312733 2.157475,4.569334 c 1.76e-4,-9.9e-5 4.6e-4,5.3e-5 6.48e-4,-4.7e-5 z"
+     id="path1453"
+     inkscape:connector-curvature="0" />
+  <path
+     id="path1196"
+     d="m 12.819682,12.228731 c 0.01166,3.88e-4 0.02331,0.0032 0.03409,0.0024 l -0.0068,-0.06916 -0.03339,-0.0026 z"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;line-height:1.25;font-family:'Nunito Sans';-inkscape-font-specification:'Nunito Sans Bold';letter-spacing:1.21000004px;word-spacing:0px;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:0.48735899"
+     inkscape:connector-curvature="0" />
+  <g
+     id="back">
+    <g
+       transform="translate(8.4111355,0.01066678)"
+       style="fill:#073b4c;fill-opacity:1"
+       id="g1158">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1485"
+         d="m 64.230548,29.59752 -6.056479,0.47129 v 5.84254 h 6.056479 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;line-height:1.25;font-family:'Nunito Sans';-inkscape-font-specification:'Nunito Sans Bold';letter-spacing:1.21000004px;word-spacing:0px;fill:#073b4c;fill-opacity:1;stroke:none;stroke-width:0.3775613" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path1483"
+         d="m 79.222913,28.43015 -6.056479,0.47181 v 7.00939 h 6.056479 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;line-height:1.25;font-family:'Nunito Sans';-inkscape-font-specification:'Nunito Sans Bold';letter-spacing:1.21000004px;word-spacing:0px;fill:#073b4c;fill-opacity:1;stroke:none;stroke-width:0.3775613" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path1494"
+         d="M 100.84226,26.79769 85.626652,27.9816 v 7.92975 h 6.05648 v -8.14886 h 3.99614 c 2.06053,0 3.76534,-0.3368 5.162988,-0.9648 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;line-height:1.25;font-family:'Nunito Sans';-inkscape-font-specification:'Nunito Sans Bold';letter-spacing:1.21000004px;word-spacing:0px;fill:#073b4c;fill-opacity:1;stroke:none;stroke-width:0.3775613" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path1503"
+         d="m 132.44912,24.76681 -6.26112,0.48731 c -0.13133,1.94716 -0.60521,3.52351 -1.46761,4.6793 -1.01732,1.36342 -2.45399,2.04484 -4.31033,2.04484 -1.84585,0 -3.27751,-0.68142 -4.29483,-2.04484 -0.72823,-0.97597 -1.1847,-2.2466 -1.39164,-3.78685 l -6.2141,0.48369 c 0.37467,2.6507 1.3725,4.82532 3.02773,6.49676 2.15,2.16049 5.10771,3.24063 8.87284,3.24063 3.77561,0 6.73281,-1.08014 8.87233,-3.24063 2.02521,-2.04506 3.05853,-4.84919 3.16673,-8.36021 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;line-height:1.25;font-family:'Nunito Sans';-inkscape-font-specification:'Nunito Sans Bold';letter-spacing:1.21000004px;word-spacing:0px;fill:#073b4c;fill-opacity:1;stroke:none;stroke-width:0.3775613" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path1512"
+         d="m 137.51083,24.35702 v 11.55433 h 5.74228 V 23.91002 Z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;line-height:1.25;font-family:'Nunito Sans';-inkscape-font-specification:'Nunito Sans Bold';letter-spacing:1.21000004px;word-spacing:0px;fill:#073b4c;fill-opacity:1;stroke:none;stroke-width:0.3775613" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path1510"
+         d="m 163.64153,22.32303 -5.72678,0.44597 v 13.14235 h 5.72678 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;line-height:1.25;font-family:'Nunito Sans';-inkscape-font-specification:'Nunito Sans Bold';letter-spacing:1.21000004px;word-spacing:0px;fill:#073b4c;fill-opacity:1;stroke:none;stroke-width:0.3775613" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path1506"
+         d="m 149.88733,23.39377 -4.49275,0.34933 3.27009,7.65328 h 3.83852 l 3.62717,-8.48889 -4.83019,0.37621 -0.73174,1.70997 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;line-height:1.25;font-family:'Nunito Sans';-inkscape-font-specification:'Nunito Sans Bold';letter-spacing:1.21000004px;word-spacing:0px;fill:#073b4c;fill-opacity:1;stroke:none;stroke-width:0.3775613" />
+    </g>
+    <path
+       sodipodi:nodetypes="cccccccsccccccccc"
+       inkscape:connector-curvature="0"
+       id="path1455"
+       d="m 26.18177,29.312733 0.506802,-0.335872 -0.249593,-4.732429 -0.32631,0.272683 c -0.301815,0.241022 -0.760374,0.589928 -0.943233,0.837113 -0.03026,0.204491 -0.151827,0.538731 -0.441168,1.099261 -0.289341,0.560517 -0.746429,1.346845 -1.445743,2.454519 -0.223913,0.375992 -0.490761,0.708705 -0.787006,1.002656 -0.296245,0.293951 -0.621418,0.549079 -0.961332,0.771011 -0.339916,0.221921 -0.694558,0.410778 -1.049477,0.570693 -0.35492,0.159913 -0.71036,0.291257 -1.051622,0.399165 -0.682526,0.215815 -1.309317,0.337406 -1.765231,0.405276 -0.405091,0.06029 -0.603338,0.06954 -0.658587,0.07278 l -0.55483,0.463951 5.731472,5.508044 c 2.826125,-1.553435 3.056484,-2.492899 6.153981,-4.219564 z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;line-height:1.25;font-family:'Nunito Sans';-inkscape-font-specification:'Nunito Sans Bold';letter-spacing:1.21000004px;word-spacing:0px;display:inline;fill:#073b4c;fill-opacity:1;stroke:none;stroke-width:0.47748417" />
+    <path
+       sodipodi:nodetypes="ccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path1187"
+       d="m 13.38362,18.597508 c 1.063366,0.0501 2.035222,0.335315 2.715247,0.855843 0.876026,0.669751 1.362869,1.677003 1.459847,3.027294 0.05491,0.764492 -0.06746,1.418748 -0.290664,2.008513 0,0 0.151058,-0.304417 0.2506,-0.81343 0.04978,-0.254507 0.08679,-0.560515 0.08572,-0.904599 -0.0011,-0.344083 -0.04012,-0.726378 -0.142551,-1.134905 l 8.069923,1.556201 c 0,0 -0.06054,0.971055 -0.349806,2.141193 0.0039,-0.01276 0.05359,-0.139281 0.05359,-0.139281 0.234496,-1.028163 0.450413,-2.068342 0.362596,-3.291081 -0.0697,-0.970388 -0.403733,-1.721883 -0.658706,-2.540555 z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;line-height:1.25;font-family:'Nunito Sans';-inkscape-font-specification:'Nunito Sans Bold';letter-spacing:1.21000004px;word-spacing:0px;fill:#073b4c;fill-opacity:1;stroke:none;stroke-width:0.48735899" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       inkscape:connector-curvature="0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;line-height:1.25;font-family:'Nunito Sans';-inkscape-font-specification:'Nunito Sans Bold';letter-spacing:1.21000004px;word-spacing:0px;fill:#073b4c;fill-opacity:1;stroke:none;stroke-width:0.48735899"
+       d="m 10.342628,13.08532 1.765267,5.556693 0.408443,-0.02933 c 0.325742,-0.0234 0.57517,-0.03246 0.867282,-0.01517 l 3.06e-4,4e-6 v 0 L 12.99835,12.914525 Z"
+       id="path1060-5" />
+    <path
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;line-height:1.25;font-family:'Nunito Sans';-inkscape-font-specification:'Nunito Sans Bold';letter-spacing:1.21000004px;word-spacing:0px;fill:#073b4c;fill-opacity:1;stroke:none;stroke-width:0.44418827"
+       d="m 50.503222,23.757486 v 6.30953 h -7.69957 c -3.359401,-0.0566 -4.527753,-0.0765 -8.402257,0 H 32.32881 v 11.32682 h 5.385768 v -5.94105 h 18.433808 v 5.94105 h 5.385788 v -11.32682 h -3.905736 l 0.122662,-6.41961 c -3.074085,-0.0497 -3.036442,0.10991 -7.247912,0.10991 z"
+       id="path4594-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccc" />
+  </g>
+  <g
+     id="rd">
+    <path
+       d="m 52.550781,4.4003906 c -6.292897,0.2850226 -9.81991,4.7785236 -10.24414,9.5292974 -0.424967,4.759015 2.109928,9.916009 7.386718,11.632812 a 1.0023609,1.0023609 0 0 0 0.08594,0.02344 c 6.396275,1.46561 11.004474,-0.871024 13.140625,-4.591797 2.136151,-3.720773 1.92397,-8.664172 -0.644531,-12.416016 A 1.0023609,1.0023609 0 0 0 62.242188,8.53125 C 59.974498,5.6030093 56.231668,4.0128863 52.550781,4.4003906 Z m 1.16211,5.6777344 a 1.0023609,1.0023609 0 0 0 0.06055,0 c 2.803907,-0.114058 4.538435,1.949079 4.978515,4.365234 0.22004,1.208078 0.07449,2.464807 -0.447265,3.490235 -0.521761,1.025427 -1.389938,1.842955 -2.798829,2.273437 -3.085576,0.925609 -5.440152,-0.441957 -6.591797,-2.447265 -1.152154,-2.006196 -1.067792,-4.528634 1.185547,-6.310547 a 1.0023609,1.0023609 0 0 0 0.04883,-0.04102 c 0.960851,-0.862349 2.275491,-1.354308 3.564453,-1.330078 z"
+       id="path881-5-9"
+       style="display:inline;opacity:1;fill:#ef476f;fill-opacity:1;stroke:none;stroke-width:0.48014501"
+       inkscape:original="M 52.623047 5.3964844 C 40.879049 5.9003325 40.391148 21.481865 50.003906 24.609375 C 62.170666 27.397206 66.145065 16.003817 61.449219 9.1445312 C 59.397522 6.4951994 55.953516 5.0343583 52.623047 5.3964844 z M 53.732422 9.0761719 C 60.384698 8.805569 62.404088 19.1478 55.798828 21.166016 C 48.79938 23.269865 44.230212 14.812403 49.478516 10.662109 C 50.632837 9.6261244 52.181555 9.0470185 53.732422 9.0761719 z "
+       inkscape:radius="1.0022607"
+       sodipodi:type="inkscape:offset" />
+    <path
+       sodipodi:nodetypes="ccccccccccccccccc"
+       id="path869-7-6-3-8"
+       d="M 33.187184,2.3468255 14.348008,0 l -1.528624,12.228776 6.47e-4,-4.5e-5 0.563589,6.368777 15.032311,1.093368 0.49791,1.310947 -2.474637,3.242783 0.249593,4.732425 -0.506803,0.335879 8.048756,-4.832607 C 32.193397,21.263471 31.487314,17.783875 31.327084,13.980724 L 21.553142,14.37823 21.290853,11.620359 21.072396,9.3311323 31.312305,9.564748 c 0.452994,-2.3968661 0.80869,-5.3787744 1.874879,-7.2179225 z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;line-height:1.25;font-family:'Nunito Sans';-inkscape-font-specification:'Nunito Sans Bold';letter-spacing:1.21000004px;word-spacing:0px;display:inline;fill:#ef476f;fill-opacity:1;stroke:none;stroke-width:0.47748417"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:nodetypes="ccccsccccccscccsccccccc"
+       inkscape:connector-curvature="0"
+       id="path1462"
+       d="M 0,13.8279 2.1717563,44.066925 9.9682541,43.506983 9.2148655,33.016978 14.359604,32.647485 c 0.977648,-0.07021 1.733891,-0.0512 2.587788,-0.222385 0,0 2.966406,-0.294095 5.471909,-2.421248 0.371693,-0.315389 0.570406,-0.727553 0.863432,-1.095663 1.284443,-1.612941 1.835086,-3.365008 1.899417,-3.574397 0.289264,-1.170137 0.349805,-2.141195 0.349805,-2.141195 l -8.069923,-1.556203 c 0.102402,0.40853 0.141508,0.790819 0.142553,1.13491 0.0011,0.344083 -0.03596,0.650089 -0.08572,0.904596 -0.09954,0.509012 -0.250596,0.813433 -0.250596,0.813433 -0.170863,0.451851 -0.385626,0.875697 -0.719641,1.223534 -0.771332,0.788064 -1.913722,1.2349 -3.426055,1.343517 L 8.8090271,27.36618 8.2026092,18.922557 10.510879,18.756779 12.108132,18.642064 10.342616,13.085097 4.5273455,13.502748 Z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;line-height:1.25;font-family:'Nunito Sans';-inkscape-font-specification:'Nunito Sans Bold';letter-spacing:1.21000004px;word-spacing:0px;fill:#ef476f;fill-opacity:1;stroke:none;stroke-width:0.48735899" />
+    <path
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       id="path884-1-8"
+       d="m 28.339893,33.88202 c -3.0977,1.726694 -3.32772,2.666034 -6.153981,4.219564 l 2.973152,3.675228 14.965571,-11.058183 C 38.546738,29.697092 37.676978,28.902861 36.73323,27.581261 l -7.136559,5.614627 z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.33333588px;line-height:1.25;font-family:'Nunito Sans';-inkscape-font-specification:'Nunito Sans Bold';letter-spacing:1.21000004px;word-spacing:0px;display:inline;fill:#ef476f;fill-opacity:1;stroke:none;stroke-width:0.47748417" />
+  </g>
+</svg>

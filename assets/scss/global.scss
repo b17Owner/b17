@@ -1,0 +1,175 @@
+$dark-bgcolor: #091a28;
+$dark-textcolor: #ebf4f1;
+
+$sepia-bgcolor: #f1e7d0;
+$sepia-textcolor: #433422;
+
+$dark-color: #ebf4f1;
+$text-color: #fff;
+$link-color: #ead234;
+// $dark-color: #30314A;
+
+
+$color-yellow: #FFD166;
+$color-red: #EF476F;
+$color-green: #06D6A0;
+$color-blue: #118AB2;
+$color-dark: #073B4C;
+$color-white: #ffffffd6;
+
+
+$theme-warning: #faa546ff;
+$theme-error: #c04444ff;
+$theme-notify: #ead234ff;
+$theme-succes: #40b45dff;
+$theme-white: #ffffffff;
+$theme-ligth: #ffffffd6;
+$theme-black: #070000ff;
+$theme-dark: #070000d6;
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('~assets/fonts/Montserrat/Montserrat-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url('~assets/fonts/Montserrat/Montserrat-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('~assets/fonts/Montserrat/Montserrat-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('~assets/fonts/Montserrat/Montserrat-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('~assets/fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('~assets/fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('~assets/fonts/Montserrat/Montserrat-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('~assets/fonts/Montserrat/Montserrat-Black.ttf') format('truetype');
+}
+
+/* second font */ 
+
+$second-font: 'Spectral';
+@font-face {
+  font-family: $second-font;
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url('~assets/fonts/'+$second-font+'/'+$second-font+'-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $second-font;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('~assets/fonts/'+$second-font+'/'+$second-font+'-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $second-font;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/'+$second-font+'/'+$second-font+'-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $second-font;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('~assets/fonts/'+$second-font+'/'+$second-font+'-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $second-font;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('~assets/fonts/'+$second-font+'/'+$second-font+'-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $second-font;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('~assets/fonts/'+$second-font+'/'+$second-font+'-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $second-font;
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('~assets/fonts/'+$second-font+'/'+$second-font+'-ExtraBold.ttf') format('truetype');
+}
+
+
+
+html {
+  font-family:
+    Montserrat,
+    Arial,
+    sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
