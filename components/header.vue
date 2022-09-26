@@ -7,7 +7,7 @@
 
         <h2>b17.studio</h2>
 
-        <ToolsColorModePicker class="color-mode-picker--wrapper"/>
+        <!-- <ToolsColorModePicker class="color-mode-picker--wrapper"/> -->
     </div>
 </template>
 
@@ -17,7 +17,7 @@
             return {
                 cIndex: 0,
                 colors: [
-                    '#FFFFFF',
+                    '#edf2f4',
                     '#E94560',
                     '#edf2f4',
                     '#E94560',
@@ -97,7 +97,7 @@
     .logo__img {
         cursor:  pointer;
         filter: hue-rotate(0deg);
-        mix-blend-mode: difference;
+        /*mix-blend-mode: difference;*/
         margin-top: -8px;
         padding-right: 20px;
     }
