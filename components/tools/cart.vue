@@ -54,8 +54,6 @@
     background-color: transparent;
     color: #457B9D;
     margin: 8px 8px;
-    max-width: 500px;
-    min-height: 300px;
     transform: translate3d(0,0,0);
     /*border: 2px solid $green_clr;*/
     z-index: 1;
@@ -135,15 +133,21 @@
 .cart--ul {
     padding-left: 18px;
     padding-bottom: 18px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .cart--ul li {
     font-weight: 500;
     letter-spacing: 0.8pt;
     line-height: 24px;
     padding-left: 18px;
+    /*flex-shrink: 1;*/
+    flex-grow: 1;
     display: list-item;
+    padding-right: 28px;
 }
 .cart--ul li p {
+    max-width: 300px;
     padding-top: 8px;
     padding-bottom: 28px;
     font-size: 12px;
