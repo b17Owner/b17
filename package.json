@@ -21,6 +21,7 @@
     "webpack": "^4.46.0"
   },
   "devDependencies": {
+    "nuxt-gsap-module": "^1.7.2",
     "sass": "^1.55.0",
     "sass-loader": "10.1.1"
   }

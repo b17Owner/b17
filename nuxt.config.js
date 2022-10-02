@@ -33,7 +33,8 @@ export default {
   buildModules: [
     '@nuxtjs/style-resources',
     // '@nuxtjs/color-mode',
-    "@nuxtjs/svg"
+    '@nuxtjs/svg',
+    'nuxt-gsap-module'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -51,5 +52,46 @@ export default {
         implementation: require('sass'),
       },
     },
+  },
+
+  gsap: {
+    /* Module Options */
+    extraPlugins: {
+      text: true
+    },
+    extraEases: {
+      slowMo: true,
+      customEase: true
+    }
+  },
+  // Add global page transition
+  pageTransition: {
+    name: 'page',
+    mode: 'out-in',
+    css: false,
+
+    beforeEnter(el) {
+      this.$gsap.set(el, {
+        opacity: 0
+      })
+    },
+
+    enter(el, done) {
+      this.$gsap.to(el, {
+        opacity: 1,
+        duration: 0.5,
+        ease: 'power2.inOut',
+        onComplete: done
+      })
+    },
+
+    leave(el, done) {
+      this.$gsap.to(el, {
+        opacity: 0,
+        duration: 0.5,
+        ease: 'power2.inOut',
+        onComplete: done
+      })
+    }
   }
 }

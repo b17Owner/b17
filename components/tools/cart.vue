@@ -13,10 +13,10 @@
                   />
                 </div>
                 <p class="cart--label">
-                    <span>{{ cart.title[0] }}</span>{{ cart.title.substring(1) }}
+                    <span ref="cart__labelspan">{{ cart.title[0] }}</span>{{ cart.title.substring(1) }}
                 </p>
             </div>
-            <h3 v-if="cart.h3" class="cart--h3">{{ cart.h3 }}</h3>
+            <h3 v-if="cart.h3" class="cart--h3" ref="cart__h3">{{ cart.h3 }}</h3>
             <h4 v-if="cart.h4" class="cart--h4">{{ cart.h4 }}</h4>
             <ul v-if="cart.ul" class="cart--ul">
                 <li v-for="item in cart.ul">
@@ -41,6 +41,20 @@
         data() {
             return {
                 cart: this.data
+            }
+        },
+        mounted() {
+            this.labelEffect()
+        },
+        methods: {
+            labelEffect() {
+                const gsap = this.$gsap
+
+                gsap.to('.cart--label', { '--red-line-width': '8px',
+                    duration: 1,
+                });
+
+
             }
         }
     }
@@ -105,6 +119,7 @@
     padding-bottom: 28px;
 }
 .cart--label {
+    --red-line-width: 32px;
     letter-spacing: 6pt;
     font-size: 18px;
     font-weight: 500;
@@ -119,7 +134,7 @@
     position:  absolute;
     width: 16px;
     height: 2px;
-    margin-left: 8px;
+    margin-left: var(--red-line-width);
     margin-top: 28px;
     border-radius: 5px;
     background-color: $red_clr;

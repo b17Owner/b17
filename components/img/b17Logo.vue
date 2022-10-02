@@ -1,5 +1,6 @@
 <template>
-    <div>
+<div>
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -12,9 +13,11 @@
    height="52.11887mm"
    viewBox="0 0 42.343914 52.11887"
    version="1.1"
+   aria-labelledby="title"
    id="svg8"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    sodipodi:docname="logo_src.svg">
+  <title id="title" lang="ru">Домой</title>
   <defs
      id="defs2">
     <rect
@@ -460,7 +463,7 @@
     <circle
        style="display:inline;fill:#5aa469;fill-opacity:1;stroke:none;stroke-width:1.15066;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path953-88"
-       cx="81.105461"
+       cx="46.905563"
        cy="79.794846"
        r="4.0720077" />
     <circle
@@ -537,5 +540,5 @@
        r="4.0720077" />
   </g>
 </svg>
-    </div>
+</div>
 </template>

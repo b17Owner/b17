@@ -1,11 +1,16 @@
 <template>
     <div class="header"
         :style="{ background: colors[cIndex] }">
-        <div class='logo__img' @click="start">
-            <NuxtLink to="/" ><ImgB17Logo /> </NuxtLink>
+        <div class='logo__img'>
+            <NuxtLink to="/" title="Домой" role="link"><ImgB17Logo /> </NuxtLink>
         </div>
 
-        <h2>b17.studio</h2>
+        <h2
+    v-gsap.fromTo="[
+      { opacity: 0},
+      { opacity: 1, duration: 3}
+    ]"
+        >b17.studio</h2>
 
         <!-- <ToolsColorModePicker class="color-mode-picker--wrapper"/> -->
     </div>
@@ -76,12 +81,14 @@
         box-shadow: inset 0 -6px 4px -4px rgba(0,0,0,.4);
     }
     .header h2 {
+        opacity: 0;
         cursor: pointer;
         /*mix-blend-mode: difference;*/
         font-size: 28px;
         font-weight: 600;
         letter-spacing: 1.2pt;
         margin-right: 8px;
+        color: #444c5c;
     }
     .header h2::aftar {
         content: "";
@@ -100,6 +107,13 @@
         /*mix-blend-mode: difference;*/
         margin-top: -8px;
         padding-right: 20px;
+    }
+    .logo__img a {
+        outline: none;
+        border: none;
+    }
+    .logo__img a:hover {
+        text-shadow: 0px 0px 3px $bz_clr;
     }
     .logo__img svg{
         height: 48px;

@@ -1,10 +1,16 @@
 <template>
     <div class="promo--wrapper content">
+        <h1 ref="h1">Современные сайты для прогрессивных идей</h1>
+
         <div class="promo--descr">
             <div class="row">
                 <div v-for="cart in carts" style="width: 100%;">
                     <ToolsCart
                         v-bind:data="cart"
+                        v-gsap.fromTo="[
+                            { opacity: 0 },
+                            { opacity: 1, duration: 2.4 }
+                        ]"
                         ></ToolsCart>
                 </div>
 
@@ -32,19 +38,19 @@
                         },
                         {
                             li: "Всё только самое необходимое",
-                            p: "Мы придерживаемся модели KISS - делай проще! Чем проще система, тем она надежнее. Система состоящая из простых и надежных компонентов легко отлаживается и гибка в разработке"
+                            p: "Придерживаемся модели KISS - делай проще! Чем проще система, тем она надежнее. Система состоящая из простых и надежных компонентов легко отлаживается и гибка в разработке"
                         },
                         {
                             li: "Оптимизация на всех этапах разработки",
                             p: "Сжатие картинок для ускорения загрузки страниц, использование векторной SVG графики, минимизация и чистый CSS/SCSS, фоновая загрузка данных"
                         }],
-                    descr: "Используя платформу Node.js, мы создаём современные сайты с серверным рендерингом, дружелюбные к SEO и посковым запросам, SPA (одностраничные приложения)",
+                    descr: "Используя платформу Node.js, создаём современные сайты с серверным рендерингом, дружелюбные к SEO и посковым запросам, SPA (одностраничные приложения)",
                     hashtag: "#Framework #SSR #NodeJS",
                 },
                 {
                     title: "Backend",
                     h3: "Сервер и хранимые данные",
-                    h4: "Используемые программы:",
+                    h4: "Используемые приложения:",
                     img: "ImgDjango",
                     ul: [{
                             li: "Python фреймворки Django, Django-Ninja",
@@ -86,6 +92,25 @@
                     hashtag: "#Bash #Backup #Script",
                 }],
             }
+        },
+        mounted() {
+            this.textEffect()
+        },
+        methods: {
+            textEffect() {
+                const gsap = this.$gsap
+                const el = this.$refs.h1
+                gsap.to(el, {
+                    duration: 3,
+                    delay: 3,
+                    text: {
+                        value: "Современный подход к разработке сайтов",
+                        newClass: "h1",
+                        delimiter: " "
+                    },
+                    ease: "elastic.out(1, 0.3)",
+                });
+            }
         }
     }
 </script>
@@ -99,8 +124,14 @@
     background-color: lighten($green_clr, 77%);
     /*text-shadow: none;*/
 }
+.promo--wrapper h1 {
+    padding: 36px 8px;
+    color: #444c5c;
+}
 
-
+.h1 {
+    color: #444c5c;
+}
 /*e5989b*/
 /*b5838d*/
 /*6d6875*/

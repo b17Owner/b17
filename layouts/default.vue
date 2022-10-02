@@ -4,9 +4,25 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
 
-        <Header />
 
-        <Nuxt />
+
+        <div id="container">
+            <div id="header">
+                <Header />
+            </div>
+            <div id="wrapper">
+                <main id="content">
+                    <Nuxt />
+                </main>
+            </div>
+            <div id="navigation" v-show="false">
+                <p>menu</p>
+            </div>
+            <div id="footer">
+                <Footer />
+            </div>
+        </div>
+
 
     </div>
 </template>
@@ -31,6 +47,40 @@
         height: 100%;
         /*background-color: #edf2f4;*/
     }
+
+
+    div#header {
+        position: relative;
+    }
+
+    div#navigation {
+        padding: 8px;
+    }
+
+    div#navigation li {
+        list-style: none;
+    }
+
+    div#wrapper {
+        float: left;
+        width: 100%;
+    }
+
+    main#content {
+        margin: 0 0 0 32px;
+    }
+
+    div#navigation {
+        float: left;
+        width: 32px;
+        margin-left: -100%;
+    }
+
+    div#footer {
+        clear: left;
+        width: 100%;
+    }
+
     .layout--wrapper {
         display: flex;
         flex-direction: column;
@@ -40,7 +90,6 @@
     .content {
         padding: 18px;
         display: flex;
-        box-shadow: inset 0 -6px 4px -4px rgba(0,0,0,.4);
     }
     .row {
         display: flex;

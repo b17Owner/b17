@@ -1,7 +1,8 @@
 <template>
     <div class="wrapper">
-        <Promo />
-        <Footer />
+        <section id="promo">
+            <Promo />
+        </section>
     </div>
 </template>
 
@@ -13,8 +14,8 @@ export default {
 </script>
 
 <style>
-    .wrapper {
+/*    .wrapper {
         display: flex;
         flex-direction: column;
-    }
+    }*/
 </style>
