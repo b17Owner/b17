@@ -4,25 +4,22 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
 
-
-
         <div id="container">
             <div id="header">
                 <Header />
             </div>
             <div id="wrapper">
+                <aside id="navigation" v-show="false">
+                    <p>menu</p>
+                </aside>
                 <main id="content">
                     <Nuxt />
                 </main>
-            </div>
-            <div id="navigation" v-show="false">
-                <p>menu</p>
             </div>
             <div id="footer">
                 <Footer />
             </div>
         </div>
-
 
     </div>
 </template>
@@ -41,6 +38,7 @@
         box-sizing: border-box;
         color: #16213E;
     }
+
     body {
         font-family: 'Montserrat', sans-serif;
         margin: 0;
@@ -48,37 +46,30 @@
         /*background-color: #edf2f4;*/
     }
 
-
     div#header {
         position: relative;
     }
 
-    div#navigation {
-        padding: 8px;
+    div#wrapper {
+        display: flex;
+    }
+
+    aside#navigation {
+        flex:  1 0 10%;
+        box-shadow: inset 0 -6px 4px -4px rgba(0,0,0,.4);
     }
 
     div#navigation li {
         list-style: none;
     }
 
-    div#wrapper {
-        float: left;
-        width: 100%;
-    }
-
     main#content {
-        margin: 0 0 0 32px;
-    }
-
-    div#navigation {
-        float: left;
-        width: 32px;
-        margin-left: -100%;
+        overflow-y: auto;
     }
 
     div#footer {
-        clear: left;
         width: 100%;
+
     }
 
     .layout--wrapper {
@@ -90,6 +81,7 @@
     .content {
         padding: 18px;
         display: flex;
+        box-shadow: inset 0 -6px 4px -4px rgba(0,0,0,.4);
     }
     .row {
         display: flex;

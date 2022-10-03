@@ -1,6 +1,6 @@
 <!-- Please remove this file from your project -->
 <template>
-  <div class="tutorial--wrapper content">
+  <div class="footer--wrapper">
     <a class='social--link' href="https://github.com/b17Owner/" target="_blank">
         <p>github</p>
         <svg
@@ -23,11 +23,12 @@
 </template>
 
 <style>
-    .tutorial--wrapper {
+    .footer--wrapper {
         background-color: #DAE5D0;
-        flex: 0 0 auto;
+        box-shadow: inset 0 -6px 4px -4px rgba(0,0,0,.4);
+        display: flex;
+        padding: 16px 16px;
     }
-
     .social--link {
         font-family: 'Syncopate', sans-serif;
         font-size: 12px;

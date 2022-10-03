@@ -1,6 +1,6 @@
 <template>
     <div class="promo--wrapper content">
-        <h1 ref="h1">Современные сайты для прогрессивных идей</h1>
+        <h1 ref="h1">Современный сайт для прогрессивных идей</h1>
 
         <div class="promo--descr">
             <div class="row">

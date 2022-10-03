@@ -44,18 +44,8 @@
             }
         },
         mounted() {
-            this.labelEffect()
         },
         methods: {
-            labelEffect() {
-                const gsap = this.$gsap
-
-                gsap.to('.cart--label', { '--red-line-width': '8px',
-                    duration: 1,
-                });
-
-
-            }
         }
     }
 </script>
@@ -119,7 +109,7 @@
     padding-bottom: 28px;
 }
 .cart--label {
-    --red-line-width: 32px;
+    --red-line-margin: 32px;
     letter-spacing: 6pt;
     font-size: 18px;
     font-weight: 500;
@@ -134,11 +124,32 @@
     position:  absolute;
     width: 16px;
     height: 2px;
-    margin-left: var(--red-line-width);
+    margin-left: 8px;
     margin-top: 28px;
     border-radius: 5px;
     background-color: $red_clr;
     z-index: 0;
+    animation: 3s ease-in-out infinite move;
+}
+.cart--label:ntn-child(2)::before {
+    animation-delay: .4s;
+}
+@keyframes move {
+    0% {
+        margin-left: 8px;
+        width: 16px;
+    }
+    25% {
+        margin-left: 16px;
+        width: 8px;
+    }
+    50% {
+        margin-left: 8px;
+        width: 16px;
+    }
+    75% {
+        margin-left: 0px;
+    }
 }
 .cart--label span {
     border: 1px solid rgba(0,0,0,.2);
