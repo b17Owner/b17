@@ -2,8 +2,9 @@
     <div class="promo--wrapper content">
         <h1 ref="h1">Современный сайт для прогрессивных идей</h1>
 
-        <div class="promo--descr">
+        <div class="promo">
             <div class="row">
+                <!-- Carts block -->
                 <div v-for="cart in carts" style="width: 100%;">
                     <ToolsCart
                         v-bind:data="cart"
@@ -13,7 +14,16 @@
                         ]"
                         ></ToolsCart>
                 </div>
+                <!-- Question block -->
 
+            </div>
+            <div class="question--wrapper">
+                <img src="~/assets/img/morpheus.png" alt="">
+                <h2>Вы хотите сайт?</h2>
+                <div class="question--button--wrapper">
+                    <button class="question--button button--yes">Да</button>
+                    <button class="question--button button--no">Нет</button>
+                </div>
             </div>
         </div>
     </div>
@@ -128,10 +138,66 @@
     padding: 36px 8px;
     color: #444c5c;
 }
-
 .h1 {
     color: #444c5c;
 }
+.question--wrapper {
+    margin: 28px auto;
+    max-width: 400px;
+    text-align: center;
+}
+.question--wrapper h2 {
+    margin-bottom: 28px;
+    color: $blue_clr;
+}
+.question--button {
+    cursor:  pointer;
+    border-radius: 17.05px;
+    padding: 9px 48px ;
+    border: none;
+    color: $blue_clr;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+}
+.button--no {
+    background-color: $red_clr;
+    color: $red_clr;
+    z-index: 1;
+}
+.button--no::before {
+    content:  '';
+    position:  absolute;
+    background-color: lighten($red_clr, 77%);
+    border-radius: 15px;
+    top: 2px;
+    left: 0;
+    bottom: 2px;
+    right: 0;
+    z-index: -1;
+}
+.button--yes {
+    background-color: $green_clr;
+    color: $green_clr;
+    z-index: 1;
+}
+.button--yes::before {
+    content:  '';
+    position:  absolute;
+    background-color: lighten($green_clr, 77%);
+    border-radius: 15px;
+    top: 2px;
+    left: 0;
+    bottom: 2px;
+    right: 0;
+    z-index: -1;
+}
+.question--button--wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+
 /*e5989b*/
 /*b5838d*/
 /*6d6875*/
